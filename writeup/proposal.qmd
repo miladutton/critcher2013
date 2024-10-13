@@ -1,0 +1,101 @@
+---
+title: "Replication of Study 'How Quick Decisions Illuminate Moral Character' by Critcher et al. (2013, Social Psychological and Personality Science)"
+author: "Mila Dutton (midutton@ucsd.edu)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format:
+  pdf:
+    toc: true
+    toc_depth: 3
+---
+
+<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+
+## Introduction
+
+This paper examines how the speed in making moral decisions can shape how others view as, as well as how we assess our own actions.This is a topic that has always been fascinating to me, especially as a psyshcology undergrad major, with experience researching cognition. The intersection between decision making and moral cognition touches on the core psychological questions regarding ethics, thought process, and social environments.
+
+The experiment will follow the structure of the original study by having participants read stories regarding making moral decisions at varying speeds. In experiment 1, two men find separate wallets in a parking lot. One man immediately decodes what to do with the wallet while the other decides after a "long and careful deliberation". In the moral condition, both men turn the wallet in, and in the immoral decision both men keep the wallet. Participants are then given questionnaires in which they rank the following sets: quickness, moral character evaluation, certainty, and emotional impulsivity. Experiment 2 follows a similar structure but is between subjects. The story depicts a single mother who is struggling to afford her son. Her boss offers to adopt her son and in return will triple her salary. She is described as either taking 3 seconds or 3 days to come to a decision, and her decision was independently varied. Participants will then use the same scales as well as two additional scales in which they rank her motives to "get more money" and "protect her children". A two way ANOVA test will be run to assess decision speed and type of decision, and a regression analysis will be run to further explore relationships between certainty and morality.
+
+A potential challenge will be the choice of wording. I was not able to find access to their actual stories, or the questionnaires given to participants. In these types of studies choices in wording, grammar, and tone can have a large impact on participant reaction. In order to be a sufficient replication, it is crucial to have minimal variance between stimuli. Additionally, I do not have experience with this type of data analysis so it will definitely be a learning curve. I am confident in my ability to learn, but I am sure it will take a bit to feel confident doing so.
+
+[Repository](https://github.com/miladutton/critcher2013)
+
+[Original Paper](https://drive.google.com/file/d/182sSzaaCkCtBFzJWphGbDNWhHVsF7vaM/view)
+
+## Methods
+
+### Power Analysis
+
+Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size. Considerations of feasibility for selecting planned sample size.
+
+### Planned Sample
+
+Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
+
+### Materials
+
+All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely. Or, quote directly and just point out exceptions to what was described in the original article.
+
+### Procedure
+
+Can quote directly from original article - just put the text in quotations and note that this was followed precisely. Or, quote directly and just point out exceptions to what was described in the original article.
+
+### Analysis Plan
+
+Can also quote directly, though it is less often spelled out effectively for an analysis strategy section. The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.
+
+**Clarify key analysis of interest here** You can also pre-specify additional analyses you plan to do.
+
+### Differences from Original Study
+
+Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study. The goal, of course, is to minimize those differences, but differences will inevitably occur. Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+
+### Methods Addendum (Post Data Collection)
+
+You can comment this section out prior to final report with data collection.
+
+#### Actual Sample
+
+Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+
+#### Differences from pre-data collection methods plan
+
+Any differences from what was described as the original plan, or “none”.
+
+## Results
+
+### Data preparation
+
+Data preparation following the analysis plan.
+
+```{r include=F}
+### Data Preparation
+
+#### Load Relevant Libraries and Functions
+
+#### Import data
+
+#### Data exclusion / filtering
+
+#### Prepare data for analysis - create columns etc.
+```
+
+### Confirmatory analysis
+
+The analyses as specified in the analysis plan.
+
+*Side-by-side graph with original graph is ideal here*
+
+### Exploratory analyses
+
+Any follow-up analyses desired (not required).
+
+## Discussion
+
+### Summary of Replication Attempt
+
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt. None of these need to be long.
